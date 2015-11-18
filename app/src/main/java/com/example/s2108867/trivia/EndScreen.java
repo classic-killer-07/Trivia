@@ -8,29 +8,24 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-public class Question6 extends AppCompatActivity {
+public class EndScreen extends AppCompatActivity {
     static String tag="com.example.jchuah.myapplication.MainActivity";
 
     public void onNextClick(View source) {
-        Log.i(tag, "LaunchingQuestion7");
-        Intent Question7Intent = new Intent(this, Question7.class);
-        startActivity(Question7Intent);
-    }
-    public void onWrongClick(View source) {
-        Log.i(tag, "Launching");
-        Intent FailIntent = new Intent(this, FailScreen.class);
-        startActivity(FailIntent);
+        Log.i(tag, "LaunchingScore" + "");
+        Intent ScoreIntent = new Intent(this, ScoreBoard.class);
+        startActivity(ScoreIntent);
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question6);
+        setContentView(R.layout.activity_end_screen);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_question6, menu);
+        getMenuInflater().inflate(R.menu.menu_end_screen, menu);
         return true;
     }
 

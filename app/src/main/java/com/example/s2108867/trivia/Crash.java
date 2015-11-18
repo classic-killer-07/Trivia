@@ -1,36 +1,22 @@
 package com.example.s2108867.trivia;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
-public class Question6 extends AppCompatActivity {
-    static String tag="com.example.jchuah.myapplication.MainActivity";
+public class Crash extends AppCompatActivity {
 
-    public void onNextClick(View source) {
-        Log.i(tag, "LaunchingQuestion7");
-        Intent Question7Intent = new Intent(this, Question7.class);
-        startActivity(Question7Intent);
-    }
-    public void onWrongClick(View source) {
-        Log.i(tag, "Launching");
-        Intent FailIntent = new Intent(this, FailScreen.class);
-        startActivity(FailIntent);
-    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question6);
+        setContentView(R.layout.activity_crash);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_question6, menu);
+        getMenuInflater().inflate(R.menu.menu_crash, menu);
         return true;
     }
 

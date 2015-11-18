@@ -10,4 +10,11 @@
     <string name="title_activity_question4">Question4</string>
     <string name="title_activity_question5">Question5</string>
     <string name="title_activity_question6">Question6</string>
+    <string name="title_activity_question7">Question7</string>
+    <string name="title_activity_end_screen">EndScreen</string>
+    <string name="title_activity_final_question">FinalQuestion</string>
+    <string name="title_activity_score_board">ScoreBoard</string>
+    <string name="title_activity_question8">Question8</string>
+    <string name="title_activity_question9">Question9</string>
+    <string name="title_activity_crash">Crash</string>
 </resources>

@@ -44,6 +44,38 @@
             android:name=".Question6"
             android:label="@string/title_activity_question6" >
         </activity>
+        <activity
+            android:name=".Question7"
+            android:label="@string/title_activity_question7" >
+        </activity>
+        <activity
+            android:name=".EndScreen"
+            android:label="@string/title_activity_end_screen" >
+        </activity>
+        <activity
+            android:name=".FinalQuestion"
+            android:label="@string/title_activity_final_question"
+            android:parentActivityName=".EndScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.s2108867.trivia.EndScreen" />
+        </activity>
+        <activity
+            android:name=".ScoreBoard"
+            android:label="@string/title_activity_score_board" >
+        </activity>
+        <activity
+            android:name=".Question8"
+            android:label="@string/title_activity_question8" >
+        </activity>
+        <activity
+            android:name=".Question9"
+            android:label="@string/title_activity_question9" >
+        </activity>
+        <activity
+            android:name=".Crash"
+            android:label="@string/title_activity_crash" >
+        </activity>
     </application>
 
 </manifest>

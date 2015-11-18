@@ -8,13 +8,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-public class Question6 extends AppCompatActivity {
+public class Question8 extends AppCompatActivity {
     static String tag="com.example.jchuah.myapplication.MainActivity";
 
     public void onNextClick(View source) {
-        Log.i(tag, "LaunchingQuestion7");
-        Intent Question7Intent = new Intent(this, Question7.class);
-        startActivity(Question7Intent);
+        Log.i(tag, "LaunchingQuestion9");
+        Intent Question9Intent = new Intent(this, Question9.class);
+        startActivity(Question9Intent);
     }
     public void onWrongClick(View source) {
         Log.i(tag, "Launching");
@@ -24,13 +24,13 @@ public class Question6 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question6);
+        setContentView(R.layout.activity_question8);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_question6, menu);
+        getMenuInflater().inflate(R.menu.menu_question8, menu);
         return true;
     }
 
