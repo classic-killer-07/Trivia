@@ -17,4 +17,5 @@
     <string name="title_activity_question8">Question8</string>
     <string name="title_activity_question9">Question9</string>
     <string name="title_activity_crash">Crash</string>
+    <string name="title_activity_final_question_p1">FinalQuestion</string>
 </resources>

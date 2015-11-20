@@ -76,6 +76,10 @@
             android:name=".Crash"
             android:label="@string/title_activity_crash" >
         </activity>
+        <activity
+            android:name=".FinalQuestionP1"
+            android:label="@string/title_activity_final_question_p1" >
+        </activity>
     </application>
 
 </manifest>

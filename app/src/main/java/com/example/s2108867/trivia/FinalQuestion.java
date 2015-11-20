@@ -1,21 +1,12 @@
 package com.example.s2108867.trivia;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 public class FinalQuestion extends AppCompatActivity {
-    static String tag="com.example.jchuah.myapplication.MainActivity";
-    public void onCrashClick(View source) {
-        Log.i(tag, "Crashing");
-        Intent CrashIntent = new Intent(this, Crash.class);
-        startActivity(CrashIntent);
 
-    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

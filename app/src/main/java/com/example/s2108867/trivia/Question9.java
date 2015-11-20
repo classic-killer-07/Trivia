@@ -12,7 +12,7 @@ public class Question9 extends AppCompatActivity {
     static String tag="com.example.jchuah.myapplication.MainActivity";
 
     public void onNextClick(View source) {
-        Log.i(tag, "LaunchingQuestio108");
+        Log.i(tag, "LaunchingFinal");
         Intent FinalQuestionIntent = new Intent(this, FinalQuestion.class);
         startActivity(FinalQuestionIntent);
     }
