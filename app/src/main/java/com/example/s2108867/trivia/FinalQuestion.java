@@ -1,12 +1,26 @@
 package com.example.s2108867.trivia;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class FinalQuestion extends AppCompatActivity {
+    static String tag="com.example.jchuah.myapplication.MainActivity";
 
+    public void onNextClick(View source) {
+        Log.i(tag, "Launching");
+        Intent Question5Intent = new Intent(this, EndScreen.class);
+        startActivity(Question5Intent);
+    }
+    public void onWrongClick(View source) {
+        Log.i(tag, "Launching");
+        Intent FailIntent = new Intent(this, FailScreen.class);
+        startActivity(FailIntent);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

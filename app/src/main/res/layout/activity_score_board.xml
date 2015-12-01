@@ -4,7 +4,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.example.s2108867.trivia.ScoreBoard">
+    tools:context="com.example.s2108867.trivia.ScoreBoard"
+    android:background="#0000ff">
 
     <TextView
         android:layout_width="wrap_content"
@@ -47,7 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
+        android:text="You               "
         android:id="@+id/username"
         android:layout_below="@+id/textView32"
         android:layout_centerHorizontal="true" />
@@ -74,7 +75,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="8: Mr. Chuah         "
+        android:text="8: Skolas, kell of kells         "
         android:id="@+id/textView36"
         android:layout_below="@+id/textView35"
         android:layout_alignLeft="@+id/textView35"
@@ -107,5 +108,15 @@
         android:layout_alignTop="@+id/username"
         android:layout_alignLeft="@+id/textView32"
         android:layout_alignStart="@+id/textView32" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start over!"
+        android:id="@+id/button37"
+        android:layout_below="@+id/textView38"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="111dp"
+        android:onClick="onNextClick" />
 
 </RelativeLayout>
